@@ -1,0 +1,90 @@
+2021-05-23 11:57:12.644 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.203\
+2021-05-23 11:57:12.767 +08:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-23 11:57:28.740 +08:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-23 11:57:28.746 +08:00 [INF] Setting entrypoint to user selected project: D:\workshop\forks\dockpanelsuite\winformsui\WinFormsUI.csproj
+2021-05-23 11:57:28.873 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-23 11:57:28.928 +08:00 [ERR] Project D:\workshop\forks\dockpanelsuite\winformsui\WinFormsUI.csproj cannot be upgraded. Input projects must have exactly one target framework. Multi-targeted projects are not yet supported.
+2021-05-23 11:57:28.930 +08:00 [INF] No projects need upgraded for selected entrypoint
+2021-05-23 11:57:28.936 +08:00 [INF] Initializing upgrade step Finalize upgrade
+2021-05-23 11:57:53.283 +08:00 [INF] Saving upgrade progress file at D:\workshop\forks\dockpanelsuite\winformsui\.upgrade-assistant
+2021-05-23 11:59:58.599 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.203\
+2021-05-23 11:59:58.695 +08:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-23 12:00:01.559 +08:00 [INF] Loading upgrade progress file at D:\workshop\forks\dockpanelsuite\WinFormsUI\.upgrade-assistant
+2021-05-23 12:00:01.900 +08:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-23 12:00:01.929 +08:00 [INF] Initializing upgrade step Back up project
+2021-05-23 12:00:09.084 +08:00 [INF] Skipping upgrade step Back up project
+2021-05-23 12:00:09.085 +08:00 [INF] Upgrade step Back up project skipped
+2021-05-23 12:00:10.183 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-23 12:00:10.187 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-23 12:00:13.066 +08:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-05-23 12:00:13.069 +08:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-05-23 12:00:14.783 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:00:14.790 +08:00 [INF] References to be removed: System.Configuration
+2021-05-23 12:00:14.791 +08:00 [INF] Packages to be added: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-05-23 12:00:17.421 +08:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-05-23 12:00:17.427 +08:00 [INF] Removing outdated assembly reference: System.Configuration
+2021-05-23 12:00:17.433 +08:00 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-05-23 12:00:21.503 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:00:21.505 +08:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-05-23 12:00:32.832 +08:00 [INF] Initializing upgrade step Update TFM
+2021-05-23 12:00:32.836 +08:00 [INF] TFM needs updated to net5.0-windows
+2021-05-23 12:00:36.494 +08:00 [INF] Applying upgrade step Update TFM
+2021-05-23 12:00:40.592 +08:00 [INF] Updated TFM to net5.0-windows
+2021-05-23 12:00:40.592 +08:00 [INF] Upgrade step Update TFM applied successfully
+2021-05-23 12:00:41.762 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-23 12:00:45.227 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:00:45.891 +08:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-05-23 12:00:45.893 +08:00 [INF] Packages to be added: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-23 12:00:50.405 +08:00 [INF] Applying upgrade step Update NuGet Packages
+2021-05-23 12:00:50.405 +08:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-23 12:00:54.615 +08:00 [INF] Marking package System.Configuration.ConfigurationManager for removal because it appears to be a transitive dependency
+2021-05-23 12:00:54.647 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:00:54.761 +08:00 [INF] Removing outdated package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-05-23 12:00:59.246 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:00:59.330 +08:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-05-23 12:01:01.441 +08:00 [INF] Initializing upgrade step Add template files
+2021-05-23 12:01:01.531 +08:00 [INF] 0 expected template items needed
+2021-05-23 12:01:01.593 +08:00 [INF] Initializing upgrade step Update source code
+2021-05-23 12:01:06.804 +08:00 [INF] Initializing upgrade step Move to next project
+2021-05-23 12:01:12.994 +08:00 [INF] Saving upgrade progress file at D:\workshop\forks\dockpanelsuite\WinFormsUI\.upgrade-assistant
+2021-05-23 12:03:01.094 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.203\
+2021-05-23 12:03:01.149 +08:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-23 12:03:04.896 +08:00 [INF] Loading upgrade progress file at D:\workshop\forks\dockpanelsuite\WinFormsUI\.upgrade-assistant
+2021-05-23 12:03:04.968 +08:00 [INF] Initializing upgrade step Back up project
+2021-05-23 12:03:19.041 +08:00 [INF] Skipping upgrade step Back up project
+2021-05-23 12:03:19.041 +08:00 [INF] Upgrade step Back up project skipped
+2021-05-23 12:03:20.209 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-23 12:03:20.213 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-23 12:03:24.442 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:03:24.653 +08:00 [INF] No package updates needed
+2021-05-23 12:03:24.653 +08:00 [INF] Initializing upgrade step Update TFM
+2021-05-23 12:03:24.674 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-23 12:03:27.384 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:03:27.505 +08:00 [INF] No package updates needed
+2021-05-23 12:03:27.505 +08:00 [INF] Initializing upgrade step Add template files
+2021-05-23 12:03:27.564 +08:00 [INF] 0 expected template items needed
+2021-05-23 12:03:27.612 +08:00 [INF] Initializing upgrade step Update source code
+2021-05-23 12:03:30.949 +08:00 [INF] Initializing upgrade step Move to next project
+2021-05-23 12:04:30.478 +08:00 [INF] Saving upgrade progress file at D:\workshop\forks\dockpanelsuite\WinFormsUI\.upgrade-assistant
+2021-05-23 12:05:57.308 +08:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.203\
+2021-05-23 12:05:57.368 +08:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-23 12:06:00.684 +08:00 [INF] Loading upgrade progress file at D:\workshop\forks\dockpanelsuite\winformsui\.upgrade-assistant
+2021-05-23 12:06:00.766 +08:00 [INF] Initializing upgrade step Back up project
+2021-05-23 12:06:15.252 +08:00 [INF] Skipping upgrade step Back up project
+2021-05-23 12:06:15.252 +08:00 [INF] Upgrade step Back up project skipped
+2021-05-23 12:06:16.576 +08:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-23 12:06:16.582 +08:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-23 12:06:19.813 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:06:19.945 +08:00 [INF] No package updates needed
+2021-05-23 12:06:19.945 +08:00 [INF] Initializing upgrade step Update TFM
+2021-05-23 12:06:19.959 +08:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-23 12:06:22.290 +08:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-05-23 12:06:22.414 +08:00 [INF] No package updates needed
+2021-05-23 12:06:22.414 +08:00 [INF] Initializing upgrade step Add template files
+2021-05-23 12:06:22.478 +08:00 [INF] 0 expected template items needed
+2021-05-23 12:06:22.511 +08:00 [INF] Initializing upgrade step Update source code
+2021-05-23 12:06:25.751 +08:00 [INF] Initializing upgrade step Move to next project
