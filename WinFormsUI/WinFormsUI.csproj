@@ -1,4 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
   <PropertyGroup>
     <PackageId>DockPanelSuite</PackageId>
     <PackageVersion>3.1.0-beta7</PackageVersion>
@@ -19,7 +20,7 @@
       Visual Studio 2013 Themes: https://www.nuget.org/packages/DockPanelSuite.ThemeVS2013/
       Visual Studio 2015 Themes: https://www.nuget.org/packages/DockPanelSuite.ThemeVS2015/
     </PackageReleaseNotes>
-    <TargetFrameworks>net5.0-windows</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1;net40;net35</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <StartupObject />
     <RootNamespace>WeifenLuo.WinFormsUI</RootNamespace>
@@ -29,6 +30,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="Docking\Configuration\PatchSection.cs" />
     <Compile Include="Docking\DefaultTheme.cs" />
@@ -157,10 +159,11 @@
   <ItemGroup>
     <EmbeddedResource Include="Docking\DockPanel.bmp" />
   </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net40' OR '$(TargetFramework)' == 'net35'">
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
   <ItemGroup>
     <!--<PackageReference Include="Vanara.PInvoke.SHCore" Version="3.3.4" />-->
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
-  </ItemGroup>
+
 </Project>

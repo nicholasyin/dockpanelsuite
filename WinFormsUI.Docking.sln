@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsUI", "WinFormsUI\WinFormsUI.csproj", "{C75532C4-765B-418E-B09B-46D36B2ABDB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockSuite", "DockSuite\DockSuite.csproj", "{4735EEF9-1551-43CD-BF83-E9E3CDC9EA5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThemeVS2015", "WinFormsUI\ThemeVS2015.csproj", "{007D4AC8-948F-4816-86AD-B9D1343672C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme", "Theme\Theme.csproj", "{A5B88853-4D23-478F-B474-68FB7AABB659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{007D4AC8-948F-4816-86AD-B9D1343672C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4735EEF9-1551-43CD-BF83-E9E3CDC9EA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4735EEF9-1551-43CD-BF83-E9E3CDC9EA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4735EEF9-1551-43CD-BF83-E9E3CDC9EA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4735EEF9-1551-43CD-BF83-E9E3CDC9EA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B88853-4D23-478F-B474-68FB7AABB659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B88853-4D23-478F-B474-68FB7AABB659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B88853-4D23-478F-B474-68FB7AABB659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B88853-4D23-478F-B474-68FB7AABB659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
