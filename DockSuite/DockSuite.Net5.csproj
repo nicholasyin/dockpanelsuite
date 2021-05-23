@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>WeifenLuo.WinFormsUI</RootNamespace>
+    <AssemblyName>DockSuite.Net5</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Themes\**" />
+    <EmbeddedResource Remove="Themes\**" />
+    <None Remove="Themes\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DockPanel.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DockPanel.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AutoHideStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DefaultTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DockPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DockPane.SplitterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="DockPaneCaptionBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.Appearance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.AutoHideWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.DockDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.DragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.FocusManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.MdiClientController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.Persistor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPanel.SplitterDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockPaneStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DockWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="DragForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DummyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="FloatWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InertButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="SplitterBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Strings.Designer.cs">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="ThemeBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="VisualStudioToolStripExtender.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="VisualStudioToolStripExtender.Designer.cs">
+      <DependentUpon>VisualStudioToolStripExtender.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Strings.resx">
+      <SubType>Designer</SubType>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
